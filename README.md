@@ -47,16 +47,6 @@ The simulation uses the following parameters as defined in the source code:
 
 ---
 
-## Performance Metrics
-
-For each algorithm, the program calculates the total movement using the sum of absolute differences between consecutive track positions in the path:
-
-$$Total Movement = \sum |path_{i+1} - path_i|$$
-
-[cite_start]The output displays both the full servicing path and the final movement count to allow for direct efficiency comparisons between the methods[cite: 1, 3].
-
----
-
 ## Technical Concepts
 
 * [cite_start]**Absolute Distance Calculation:** Used to determine seek time[cite: 1].
